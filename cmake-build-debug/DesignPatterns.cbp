@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DesignPatterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesignPatterns">
+				<Option output="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/DesignPatterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesignPatterns"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesignPatterns/fast">
+				<Option output="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/DesignPatterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesignPatterns/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/Adapter.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/Adapter.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/AmericanSocketInterface.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/ElectricKettle.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/ElectricKettle.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/EuropeanSocketInterface.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/Socket.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/cocinero.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/cocinero.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/pastel.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/pastel.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/pasteleria.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/pasteleria.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/Client.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/Client.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/Observer.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/Subject.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/WeatherData.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/WeatherData.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/main.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
