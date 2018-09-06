@@ -9,6 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o"
   "CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o"
   "CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o"
   "DesignPatterns.pdb"
   "DesignPatterns"
 )

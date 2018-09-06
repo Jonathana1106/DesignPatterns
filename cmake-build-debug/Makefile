@@ -312,6 +312,87 @@ Builder/pasteleria.cpp.s:
 	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.s
 .PHONY : Builder/pasteleria.cpp.s
 
+Facade/Audi.o: Facade/Audi.cpp.o
+
+.PHONY : Facade/Audi.o
+
+# target to build an object file
+Facade/Audi.cpp.o:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o
+.PHONY : Facade/Audi.cpp.o
+
+Facade/Audi.i: Facade/Audi.cpp.i
+
+.PHONY : Facade/Audi.i
+
+# target to preprocess a source file
+Facade/Audi.cpp.i:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.i
+.PHONY : Facade/Audi.cpp.i
+
+Facade/Audi.s: Facade/Audi.cpp.s
+
+.PHONY : Facade/Audi.s
+
+# target to generate assembly for a file
+Facade/Audi.cpp.s:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.s
+.PHONY : Facade/Audi.cpp.s
+
+Facade/Facade.o: Facade/Facade.cpp.o
+
+.PHONY : Facade/Facade.o
+
+# target to build an object file
+Facade/Facade.cpp.o:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o
+.PHONY : Facade/Facade.cpp.o
+
+Facade/Facade.i: Facade/Facade.cpp.i
+
+.PHONY : Facade/Facade.i
+
+# target to preprocess a source file
+Facade/Facade.cpp.i:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.i
+.PHONY : Facade/Facade.cpp.i
+
+Facade/Facade.s: Facade/Facade.cpp.s
+
+.PHONY : Facade/Facade.s
+
+# target to generate assembly for a file
+Facade/Facade.cpp.s:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.s
+.PHONY : Facade/Facade.cpp.s
+
+Facade/Mazda.o: Facade/Mazda.cpp.o
+
+.PHONY : Facade/Mazda.o
+
+# target to build an object file
+Facade/Mazda.cpp.o:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o
+.PHONY : Facade/Mazda.cpp.o
+
+Facade/Mazda.i: Facade/Mazda.cpp.i
+
+.PHONY : Facade/Mazda.i
+
+# target to preprocess a source file
+Facade/Mazda.cpp.i:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.i
+.PHONY : Facade/Mazda.cpp.i
+
+Facade/Mazda.s: Facade/Mazda.cpp.s
+
+.PHONY : Facade/Mazda.s
+
+# target to generate assembly for a file
+Facade/Mazda.cpp.s:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.s
+.PHONY : Facade/Mazda.cpp.s
+
 Observer/Client.o: Observer/Client.cpp.o
 
 .PHONY : Observer/Client.o
@@ -423,6 +504,15 @@ help:
 	@echo "... Builder/pasteleria.o"
 	@echo "... Builder/pasteleria.i"
 	@echo "... Builder/pasteleria.s"
+	@echo "... Facade/Audi.o"
+	@echo "... Facade/Audi.i"
+	@echo "... Facade/Audi.s"
+	@echo "... Facade/Facade.o"
+	@echo "... Facade/Facade.i"
+	@echo "... Facade/Facade.s"
+	@echo "... Facade/Mazda.o"
+	@echo "... Facade/Mazda.i"
+	@echo "... Facade/Mazda.s"
 	@echo "... Observer/Client.o"
 	@echo "... Observer/Client.i"
 	@echo "... Observer/Client.s"

@@ -187,6 +187,45 @@ CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp -o CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s
 
+CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
+CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o: ../Facade/Audi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o -c /home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.cpp
+
+CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.cpp > CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.i
+
+CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.cpp -o CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.s
+
+CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
+CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o: ../Facade/Facade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o -c /home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.cpp
+
+CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.cpp > CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.i
+
+CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.cpp -o CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.s
+
+CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
+CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o: ../Facade/Mazda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o -c /home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.cpp
+
+CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.cpp > CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.i
+
+CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.cpp -o CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.s
+
 # Object files for target DesignPatterns
 DesignPatterns_OBJECTS = \
 "CMakeFiles/DesignPatterns.dir/main.cpp.o" \
@@ -198,7 +237,10 @@ DesignPatterns_OBJECTS = \
 "CMakeFiles/DesignPatterns.dir/Builder/pastel.cpp.o" \
 "CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o" \
 "CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o" \
-"CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o"
+"CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o" \
+"CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o" \
+"CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o" \
+"CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o"
 
 # External object files for target DesignPatterns
 DesignPatterns_EXTERNAL_OBJECTS =
@@ -213,9 +255,12 @@ DesignPatterns: CMakeFiles/DesignPatterns.dir/Builder/pastel.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o
+DesignPatterns: CMakeFiles/DesignPatterns.dir/Facade/Audi.cpp.o
+DesignPatterns: CMakeFiles/DesignPatterns.dir/Facade/Facade.cpp.o
+DesignPatterns: CMakeFiles/DesignPatterns.dir/Facade/Mazda.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/build.make
 DesignPatterns: CMakeFiles/DesignPatterns.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable DesignPatterns"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable DesignPatterns"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DesignPatterns.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

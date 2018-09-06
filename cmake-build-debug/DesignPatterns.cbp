@@ -129,6 +129,24 @@
 		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Builder/pasteleria.h">
 			<Option target="DesignPatterns"/>
 		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
 		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Observer/Client.cpp">
 			<Option target="DesignPatterns"/>
 		</Unit>

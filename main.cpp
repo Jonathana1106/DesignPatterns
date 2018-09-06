@@ -6,6 +6,7 @@
 #include "Adapter/ElectricKettle.h"
 #include "Builder/pasteleria.h"
 #include "AbstractFactory/CarFactory.cpp"
+#include "Facade/Facade.h"
 
 using namespace std;
 
@@ -62,6 +63,24 @@ int main() {
         }
         case 2: {
             cout << "Facade. \n";
+
+            Facade *use = new(Facade);
+            int car;
+            int i = 0;
+            while(i == 0) {
+                cout << "Which car you want to use?" << endl;
+                cout << "1-Audi A5" << endl << "2-Mazda CX-5" << endl;
+                cin >> car;
+                if (car == 1) {
+                    i = 1;
+                    use->useAudi();
+                }
+                if(car == 2){
+                    i = 1;
+                    use->useMazda();
+                }
+            }
+
             break;
         }
         case 3: {

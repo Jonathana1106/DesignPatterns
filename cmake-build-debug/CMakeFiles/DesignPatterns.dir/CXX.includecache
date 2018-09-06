@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp
+iostream
+-
+
+/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp
+iostream
+-
+Car.cpp
+/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp
+
 /home/jonathan/CLionProjects/DesignPatterns/Adapter/Adapter.h
 EuropeanSocketInterface.h
 /home/jonathan/CLionProjects/DesignPatterns/Adapter/EuropeanSocketInterface.h
@@ -39,6 +49,32 @@ cocinero.h
 /home/jonathan/CLionProjects/DesignPatterns/Builder/cocinero.h
 pastel.h
 /home/jonathan/CLionProjects/DesignPatterns/Builder/pastel.h
+
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.cpp
+Audi.h
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.h
+iostream
+-
+
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.h
+
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.cpp
+Facade.h
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.h
+Audi.h
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Audi.h
+Mazda.h
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.h
+
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.h
+
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.cpp
+Mazda.h
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.h
+iostream
+-
+
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Mazda.h
 
 /home/jonathan/CLionProjects/DesignPatterns/Observer/Client.h
 Observer.h
@@ -77,4 +113,8 @@ Adapter/ElectricKettle.h
 /home/jonathan/CLionProjects/DesignPatterns/Adapter/ElectricKettle.h
 Builder/pasteleria.h
 /home/jonathan/CLionProjects/DesignPatterns/Builder/pasteleria.h
+AbstractFactory/CarFactory.cpp
+/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp
+Facade/Facade.h
+/home/jonathan/CLionProjects/DesignPatterns/Facade/Facade.h
 
