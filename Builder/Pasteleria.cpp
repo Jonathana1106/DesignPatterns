@@ -2,7 +2,7 @@
 // Created by elias on 22/08/18.
 //
 
-#include "pasteleria.h"
+#include "Pasteleria.h"
 
 
 int pasteleria::order_chocolate_cake() {

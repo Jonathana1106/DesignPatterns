@@ -7,7 +7,7 @@
 
 
 #include <string>
-#include "pastel.h"
+#include "Pastel.h"
 
 class cocinero{
 private:

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "pastel.h"
+#include "Pastel.h"
 
 long pastel::save_taste(std::string* ptr_taste) {
     taste = *ptr_taste;

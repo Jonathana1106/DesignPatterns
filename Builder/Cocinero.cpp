@@ -2,8 +2,8 @@
 // Created by elias on 25/08/18.
 //
 
-#include "cocinero.h"
-#include "pastel.h"
+#include "Cocinero.h"
+#include "Pastel.h"
 
 std::string* ingredient;
 long cocinero::cook_a_Hawaiana_cake(pastel pastel1) {

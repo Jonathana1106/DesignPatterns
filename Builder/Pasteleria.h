@@ -5,8 +5,8 @@
 #ifndef TAREA_EXTRACLASE2_CE2103_PASTELERIA_H
 #define TAREA_EXTRACLASE2_CE2103_PASTELERIA_H
 
-#include "cocinero.h"
-#include "pastel.h"
+#include "Cocinero.h"
+#include "Pastel.h"
 
 class pasteleria {
 
