@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/facade.dir/main.cpp.o CMakeFiles/facade.dir/facade.cpp.o CMakeFiles/facade.dir/Audi.cpp.o CMakeFiles/facade.dir/Mazda.cpp.o  -o facade 
