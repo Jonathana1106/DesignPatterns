@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -161,6 +161,32 @@ CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/Builder/pasteleria.cpp -o CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.s
 
+CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
+CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o: ../AbstractFactory/Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o -c /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp
+
+CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp > CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.i
+
+CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp -o CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.s
+
+CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
+CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o: ../AbstractFactory/CarFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o -c /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp
+
+CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp > CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.i
+
+CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp -o CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s
+
 # Object files for target DesignPatterns
 DesignPatterns_OBJECTS = \
 "CMakeFiles/DesignPatterns.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ DesignPatterns_OBJECTS = \
 "CMakeFiles/DesignPatterns.dir/Adapter/ElectricKettle.cpp.o" \
 "CMakeFiles/DesignPatterns.dir/Builder/cocinero.cpp.o" \
 "CMakeFiles/DesignPatterns.dir/Builder/pastel.cpp.o" \
-"CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o"
+"CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o" \
+"CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o" \
+"CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o"
 
 # External object files for target DesignPatterns
 DesignPatterns_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ DesignPatterns: CMakeFiles/DesignPatterns.dir/Adapter/ElectricKettle.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/Builder/cocinero.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/Builder/pastel.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o
+DesignPatterns: CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o
+DesignPatterns: CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/build.make
 DesignPatterns: CMakeFiles/DesignPatterns.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DesignPatterns"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable DesignPatterns"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DesignPatterns.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DesignPatterns.dir/Builder/cocinero.cpp.o"
   "CMakeFiles/DesignPatterns.dir/Builder/pastel.cpp.o"
   "CMakeFiles/DesignPatterns.dir/Builder/pasteleria.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o"
   "DesignPatterns.pdb"
   "DesignPatterns"
 )

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/37/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/38/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/38/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,6 +122,60 @@ DesignPatterns: cmake_check_build_system
 DesignPatterns/fast:
 	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/build
 .PHONY : DesignPatterns/fast
+
+AbstractFactory/Car.o: AbstractFactory/Car.cpp.o
+
+.PHONY : AbstractFactory/Car.o
+
+# target to build an object file
+AbstractFactory/Car.cpp.o:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o
+.PHONY : AbstractFactory/Car.cpp.o
+
+AbstractFactory/Car.i: AbstractFactory/Car.cpp.i
+
+.PHONY : AbstractFactory/Car.i
+
+# target to preprocess a source file
+AbstractFactory/Car.cpp.i:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.i
+.PHONY : AbstractFactory/Car.cpp.i
+
+AbstractFactory/Car.s: AbstractFactory/Car.cpp.s
+
+.PHONY : AbstractFactory/Car.s
+
+# target to generate assembly for a file
+AbstractFactory/Car.cpp.s:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.s
+.PHONY : AbstractFactory/Car.cpp.s
+
+AbstractFactory/CarFactory.o: AbstractFactory/CarFactory.cpp.o
+
+.PHONY : AbstractFactory/CarFactory.o
+
+# target to build an object file
+AbstractFactory/CarFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o
+.PHONY : AbstractFactory/CarFactory.cpp.o
+
+AbstractFactory/CarFactory.i: AbstractFactory/CarFactory.cpp.i
+
+.PHONY : AbstractFactory/CarFactory.i
+
+# target to preprocess a source file
+AbstractFactory/CarFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.i
+.PHONY : AbstractFactory/CarFactory.cpp.i
+
+AbstractFactory/CarFactory.s: AbstractFactory/CarFactory.cpp.s
+
+.PHONY : AbstractFactory/CarFactory.s
+
+# target to generate assembly for a file
+AbstractFactory/CarFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.s
+.PHONY : AbstractFactory/CarFactory.cpp.s
 
 Adapter/Adapter.o: Adapter/Adapter.cpp.o
 
@@ -348,6 +402,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DesignPatterns"
+	@echo "... AbstractFactory/Car.o"
+	@echo "... AbstractFactory/Car.i"
+	@echo "... AbstractFactory/Car.s"
+	@echo "... AbstractFactory/CarFactory.o"
+	@echo "... AbstractFactory/CarFactory.i"
+	@echo "... AbstractFactory/CarFactory.s"
 	@echo "... Adapter/Adapter.o"
 	@echo "... Adapter/Adapter.i"
 	@echo "... Adapter/Adapter.s"

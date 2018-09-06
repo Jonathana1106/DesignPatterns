@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
 		<Unit filename="/home/jonathan/CLionProjects/DesignPatterns/Adapter/Adapter.cpp">
 			<Option target="DesignPatterns"/>
 		</Unit>

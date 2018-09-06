@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/Car.cpp" "/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/AbstractFactory/Car.cpp.o"
+  "/home/jonathan/CLionProjects/DesignPatterns/AbstractFactory/CarFactory.cpp" "/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/AbstractFactory/CarFactory.cpp.o"
   "/home/jonathan/CLionProjects/DesignPatterns/Adapter/Adapter.cpp" "/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/Adapter/Adapter.cpp.o"
   "/home/jonathan/CLionProjects/DesignPatterns/Adapter/ElectricKettle.cpp" "/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/Adapter/ElectricKettle.cpp.o"
   "/home/jonathan/CLionProjects/DesignPatterns/Builder/cocinero.cpp" "/home/jonathan/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/Builder/cocinero.cpp.o"
