@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nyverk/CLionProjects/abstractFactory/car.cpp
+iostream
+-
+
+/home/nyverk/CLionProjects/abstractFactory/carFactory.cpp
+iostream
+-
+car.cpp
+/home/nyverk/CLionProjects/abstractFactory/car.cpp
+
+/home/nyverk/CLionProjects/abstractFactory/main.cpp
+iostream
+-
+carFactory.cpp
+/home/nyverk/CLionProjects/abstractFactory/carFactory.cpp
+
